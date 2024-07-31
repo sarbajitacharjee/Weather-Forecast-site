@@ -97,7 +97,14 @@ function Forecast({ weather }) {
           <div>
             <p className="humidity">{data.temperature.humidity}%</p>
             <p>Humidity</p>
+          </div>
         </div>
+        <div className="col">
+          <ReactAnimatedWeather icon="CLEAR_DAY" size="40"/>
+          <div>
+            <p className="humidity">{Math.floor(data.temperature.feels_like)}°C</p>
+            <p>feels like</p>
+          </div>
         </div>
       </div>
       <div className="forecast">
@@ -121,6 +128,7 @@ function Forecast({ weather }) {
             ))}
         </div>
       </div>
+
     </div>
   );
 }        

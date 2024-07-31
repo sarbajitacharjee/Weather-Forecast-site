@@ -5,6 +5,7 @@ function SearchEngine({ query, setQuery, search }) {
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
       search(e);
+      
     }
   };
 
