@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  font-family:cursive, 'Poppins', sans-serif;  
+  font-family: 'Poppins', sans-serif;  
   margin: 0;
   padding: 0;
 }
@@ -107,10 +107,11 @@ body {
 }
 
 .weather-des {
-  color: #ff0040;
+  color: #0400ff;
   font-size: 20px;
   font-weight: 500;
   margin-top: 0;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
@@ -185,13 +186,13 @@ body {
 }
 
 .credit {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 20px;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   color: #8fc9da;
   width: 100%;
 }
@@ -203,7 +204,7 @@ body {
 }
 
 .credit a:hover {
-  color: #a94b7e;
+  color: #900889;
 }
 
 /* Desktop view */
