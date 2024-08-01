@@ -75,7 +75,7 @@ function Forecast({ weather }) {
           <img
             src={data.condition.icon_url}
             alt={data.condition.description}
-            className="temp-icon"
+            className="temp-icon" 
           />
         )}
         {renderTemperature(data.temperature.current)}
